@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" parallel="tests" thread-count="3">
+    <test name="GoogleTest1" >
+        <classes>
+            <class name="com.qa.spring.springselenium.test.google.tests.Google1Test" />
+        </classes>
+    </test>
+
+    <test name="GoogleTest2">
+        <classes>
+            <class name="com.qa.spring.springselenium.test.google.tests.Google2Test"/>
+        </classes>
+    </test>
+</suite>
